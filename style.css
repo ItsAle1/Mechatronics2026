@@ -306,3 +306,45 @@ nav a {
   opacity: 0.85;
   text-align: center; 
 }
+
+@media (max-width: 768px) {
+
+  nav {
+    flex-wrap: wrap;
+    padding: 10px 20px;
+  }
+
+  .nav-links {
+    gap: 12px;
+    font-size: 13px;
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .hero-content p {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+
+  .cards-section {
+    grid-template-columns: 1fr;   /* 3 kolom jadi 1 kolom, numpuk ke bawah */
+    padding: 40px 20px;
+  }
+
+  .card {
+    padding: 24px 20px;
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr;   /* footer juga jadi 1 kolom */
+    padding: 0 30px 30px;
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+}
